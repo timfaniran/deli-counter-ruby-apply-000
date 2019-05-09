@@ -17,6 +17,7 @@ end
 # Defining the take_a_number method  
 def take_a_number(katz_deli, name)
   katz_deli.push(name)
+  
   # append name to katz_deli array
   puts "Welcome, #{name}. You are number #{index} in line."
 end
@@ -29,6 +30,12 @@ def now_serving(arg)
     arg.shift
   end
 end
+
+# def ticket_number(array)
+#   new_array = []
+  
+#   array.each.with_index(1) do ||
+# end
 
 
 line(katz_deli)
